@@ -20,7 +20,7 @@ print(accuracy_score(labels_test, prediction))
 
 
 #probably versicolor
-iris1 = [[4.7, 2.5, 3.1, 1.2]]
+iris1 = [[7.1, 2.9, 5.3, 2.4]]
 iris_prediction = my_classifier.predict(iris1)
 if iris_prediction[0] == 0:
     print("setosa")
